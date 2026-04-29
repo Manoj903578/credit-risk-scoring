@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/manoj/Desktop/credit-risk-scoring/mlruns/1/models/m-e77427177bf74058b4e63a1ae523afc8/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.3.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: cloudpickle
+    skops_trusted_types: null
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.12.4
+mlflow_version: 3.11.1
+model_id: m-e77427177bf74058b4e63a1ae523afc8
+model_size_bytes: 6906884
+model_uuid: m-e77427177bf74058b4e63a1ae523afc8
+prompts: null
+run_id: 76de9122c3ac425e97f0dd61aa6e662c
+utc_time_created: '2026-04-29 17:15:01.840609'
